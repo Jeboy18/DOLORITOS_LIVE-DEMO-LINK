@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <a href="#home" class="logo">Portfolio</a>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== HOME ===== -->
+  <section id="home" class="home">
+    <div class="home-content box">
+      <h3>Hello, I am</h3>
+      <h1>Jevie B. Doloritos</h1>
+      <p>
+        I'm a lifelong learner who enjoys creating responsive and user-friendly
+        websites using HTML, CSS, and JavaScript.
+      </p>
+
+      <div class="social-media">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-telegram'></i></a>
+      </div>
+
+      <a href="#" class="btn">Download CV</a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="box about-box">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <img src="profile.jpeg" alt="My Photo" class="about-img">
+        <p>
+          I am a student passionate about web development. I enjoy learning new
+          technologies and applying them to real-world projects.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <div class="box">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Responsive Web Design</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section id="portfolio" class="section">
+    <div class="box">
+      <h2>My Projects</h2>
+      <div class="projects">
+        <div class="project-card">Personal Portfolio Website</div>
+        <div class="project-card">To-Do List Application</div>
+        <div class="project-card">Responsive Landing Page</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <div class="box">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" />
+        <input type="email" id="email" placeholder="Your Email" />
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+        <p id="formMessage"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 Jevie B. Doloritos | Portfolio Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
